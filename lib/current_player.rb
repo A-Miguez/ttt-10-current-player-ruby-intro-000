@@ -8,6 +8,6 @@ def turn_count(board)
   count.length.to_i
 end
 
-def current_player
+def current_player(board)
 
 end
