@@ -3,7 +3,9 @@ def turn_count(board)
   board.each do |cell|
     if cell == "X" || cell =="O"
       count.push(1)
+    end
   end
+  count.length.to_o
 end
 
 def current_player
